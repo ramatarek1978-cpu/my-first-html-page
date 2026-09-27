@@ -1,0 +1,132 @@
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f1ec;
+}
+
+/* Header */
+header {
+    background-color: #5c4033;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Sections - Box Model */
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #5c4033;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* Text */
+p {
+    font-size: 1rem;
+}
+
+strong {
+    color: #5c4033;
+}
+
+em {
+    color: #777;
+}
+
+/* Hobbies - Flexbox */
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li {
+    background-color: #eee3d8;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+/* Image styling */
+img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 15px auto 0;
+    border-radius: 12px;
+    border: 3px solid #ddd;
+}
+
+/* Link styling */
+a {
+    color: #8b5e3c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #5c4033;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        padding: 0 12px;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    li {
+        text-align: center;
+    }
+}
